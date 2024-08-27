@@ -4,7 +4,41 @@ body{
 
 }
 
-h1 {
+#tittelskrift{
     color: brown;
 }
 
+nav{
+
+}
+
+li{
+    display: flexbox;
+}
+
+
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    font-weight: 800;
+    position: relative;
+    bottom: 55px;
+}
+
+.om:hover{
+    color: rgb(160, 160, 6);
+}
+
+.om{
+    background-color: rgb(163, 164, 167);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
