@@ -1,34 +1,47 @@
 
 body{
     background-color: grey;
+    height: 100%;
+    margin: 0;
 
 }
 
 #tittelskrift{
     color: brown;
+    padding-left: 500px ;
+    background-color: black;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    stroke-width: 100%;
+    stroke: orange;
 }
 
 nav{
 
 }
 
-li{
-    display: flexbox;
+header{
+    height: 100%;
 }
 
-sly cooper and thievius raccoonus
+
+
+li{
+    margin: 10px;
+    background-color: lightcoral;
+}
+
 
 
 .navbar{
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    display: flex;
+    padding-top: 25px;
+    padding-right: 30px;
     justify-content: space-around;
     font-size: large;
     font-weight: 800;
-    position: relative;
-    bottom: 55px;
 }
 
 .om:hover{
@@ -42,4 +55,19 @@ sly cooper and thievius raccoonus
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 15px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    height: 100%;
+}
+
+.leftColumn{
+    background-color: lightyellow;
+    height: 800px;
+}
+
+.rightColumn{
+    background-color: lightblue;
 }
