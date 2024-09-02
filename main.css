@@ -1,6 +1,6 @@
 
 body{
-    background-color: grey;
+    background-color: lightgreen;
     height: 100%;
     margin: 0;
 
@@ -38,6 +38,21 @@ li{
     align-items: center;
     position: relative;
     top: 10px;
+}
+
+#eugen1{
+    margin: 20px;
+}
+
+.tboks{
+    padding-left: 600px;
+}
+
+.tboksp{
+    position: relative;
+    bottom: 280px;
+    padding-left: 500px;
+
 }
 
 
