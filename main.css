@@ -114,12 +114,12 @@ hr{
 .container{
     display: grid;
     grid-template-columns: 15% 1fr;
-    height: 100%;
+    height: 800px;
 }
 
 .leftColumn{
     background-color: rgb(66, 132, 84);
-    height: 800px;
+    height: 100%;
 }
 
 .rightColumn{
