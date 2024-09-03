@@ -10,7 +10,8 @@ body{
 #tittelskrift{
     color: rgb(134, 220, 108);
     padding-left: 350px ;
-    background-color: rgb(39, 101, 57);
+    /* background-color: ; */
+    background: linear-gradient(rgb(39, 101, 57), rgb(17, 99, 15));
     margin: 0;
     padding-top: 15px;
     padding-bottom: 30px;
@@ -107,7 +108,8 @@ hr{
 }
 
 .om:hover{
-    color: rgb(160, 160, 6);
+    color: rgb(21, 107, 3);
+    background-color: rgb(128, 245, 104) ;
 }
 
 .om{
@@ -126,11 +128,11 @@ hr{
 }
 
 .leftColumn{
-    background-color: rgb(66, 132, 84);
+    background:linear-gradient(#31a535, #2baa2f , #1d611f);
     height: 100%;
 }
 
 .rightColumn{
-    background-color: lightgreen;
+    background:linear-gradient(#76e079, #2baa2f , #1d611f);
 }
 
