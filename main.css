@@ -9,7 +9,7 @@ body{
 
 #tittelskrift{
     color: rgb(134, 220, 108);
-    padding-left: 350px ;
+    padding-left: 400px ;
     /* background-color: ; */
     background: linear-gradient(rgb(39, 101, 57), rgb(17, 99, 15));
     margin: 0;
@@ -17,6 +17,7 @@ body{
     padding-bottom: 30px;
     stroke-width: 20px;
     stroke: orange;
+    font-size: 60px;
 }
 
 
@@ -123,12 +124,13 @@ hr{
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10px;
+    transition: border-radius 0.5s ease;
 }
 
 .container{
     display: grid;
     grid-template-columns: 15% 1fr;
-    height: 800px;
+    height: 100%;
 }
 
 .leftColumn{
@@ -138,5 +140,10 @@ hr{
 
 .rightColumn{
     background:linear-gradient(#76e079, #2baa2f , #1d611f);
+    height: 100%;
+}
+
+.link1{
+    di
 }
 
