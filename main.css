@@ -110,7 +110,11 @@ hr{
 .om:hover{
     color: rgb(21, 107, 3);
     background-color: rgb(128, 245, 104) ;
+    border-radius: 20px;
+    transition: border-radius 0.5s ease;
+    
 }
+
 
 .om{
     background-color: rgb(164, 222, 152);
@@ -118,7 +122,7 @@ hr{
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .container{
