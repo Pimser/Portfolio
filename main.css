@@ -1,6 +1,7 @@
 
+
 body{
-    background-color: lightgreen;
+    background-color: rgb(195, 236, 195);
     height: 100%;
     margin: 0;
 
@@ -79,6 +80,13 @@ li{
     margin: 20px;
     position: relative;
     bottom: 485px;
+    border-radius: 15px;
+}
+
+#swopic{
+    margin: 20px;
+    position: relative;
+    bottom: 1000px;
     border-radius: 15px;
 }
 
