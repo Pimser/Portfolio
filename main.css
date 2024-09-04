@@ -7,17 +7,22 @@ body{
 
 }
 
+header{
+    background: linear-gradient(rgb(39, 101, 57), rgb(17, 99, 15));
+}
+
 #tittelskrift{
     color: rgb(134, 220, 108);
     padding-left: 400px ;
     /* background-color: ; */
-    background: linear-gradient(rgb(39, 101, 57), rgb(17, 99, 15));
+    /* background: linear-gradient(rgb(39, 101, 57), rgb(17, 99, 15)); */
     margin: 0;
     padding-top: 15px;
     padding-bottom: 30px;
     stroke-width: 20px;
-    stroke: orange;
     font-size: 60px;
+    position: relative;
+    right: 250px;
 }
 
 
@@ -143,7 +148,69 @@ hr{
     height: 100%;
 }
 
+.leftcontainer{
+    display: grid;
+    grid-template-columns: 150px;
+    grid-template-rows: 33% 33% 33%;
+    position: relative;
+    right: 20px;
+}
+
 .link1{
-    di
+    background-color: lightgreen;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 3px;
+    font-family: papyrus;
+    transition: border-radius 0.5s ease;
+}
+
+.link1:hover{
+    background-color: rgb(171, 244, 171);
+    border-radius: 10px;
+    transition: border-radius 0.5s ease;
+}
+
+.link2{
+    background-color: lightgreen;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 3px;
+    position: relative;
+    top: 35px;
+    font-family: papyrus;
+    transition: border-radius 0.5s ease;
+}
+
+.link2:hover{
+    background-color: rgb(171, 244, 171);
+    border-radius: 10px;
+    transition: border-radius 0.5s ease;
+}
+
+.link3{
+    background-color: lightgreen;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 3px;
+    position: relative;
+    top: 70px;
+    font-family: papyrus;
+    transition: border-radius 0.5s ease;
+}
+
+.link3:hover{
+    background-color: rgb(171, 244, 171);
+    border-radius: 10px;
+    transition: border-radius 0.5s ease;
 }
 

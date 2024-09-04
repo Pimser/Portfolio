@@ -4,12 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio/kunnskap</title>
+    <link rel="stylesheet" href="kunnskap.css">
 </head>
-<body style="background-color: #31a535;">
-    <h1>Dette er kunnskap</h1>
-    <hr style="background-color: black; height: 2px; border: none;">
-    <div onclick="window.location.href='hjem.html';" style="cursor: pointer;">
-        <h3 style="background-color: lightgreen;">Tilbake</h3>
-    </div>
+<body>
+    <header>
+        <div class="headerBoks"></div>
+        <h1 id="tittelskrift">Dette er kunnskap</h1>
+        
+    </header>
+    <main>
+        <div class="container">
+            <div class="left">
+                <ul>
+                    <div id="knappmeny">
+                        <div id="link1" onclick="window.location.href='hjem.html'"; style="cursor: pointer;"><h1>Hjem</h1></div>
+                        <div id="link2" onclick="window.location.href='index.html'"; style="cursor: pointer;"><h1>Om Meg</h1></div>
+                        <div id="link3" onclick="window.location.href='prosjekter.html'"; style="cursor: pointer;"><h1>Prosjekter</h1></div>
+                    </div>
+                </ul>
+            </div>
+            <div class="right">
+            </div>
+        </div>
+    </main>
+    
+    
 </body>
 </html>
