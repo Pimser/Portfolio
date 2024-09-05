@@ -127,7 +127,7 @@ header{
     width: 100%;
     height: 100%;
     border-radius: 20%;
-    box-shadow: rgb(103, 217, 246) 0px 0px 10px 10px;
+    box-shadow: rgba(103, 217, 246, 0.299) 0px 0px 10px 10px;
 }
 
 #boks2{
@@ -165,7 +165,7 @@ header{
     border-radius: 20%;
     width: 100%;
     height: 100%;
-    box-shadow: #8cd98e  0px 0px 10px 10px;
+    box-shadow: hsla(122, 50%, 70%, 0.308)  0px 0px 10px 10px;
 }
 
 #boks5{
@@ -185,7 +185,7 @@ header{
     align-items: center;
     height: 100%;
     width: 100%;
-    box-shadow: rgb(123, 198, 216) 0px 0px 10px 10px;
+    box-shadow: rgba(123, 197, 216, 0.313) 0px 0px 10px 10px;
     opacity: 75%;
 }
 

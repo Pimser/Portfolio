@@ -109,37 +109,76 @@ header{
 }
 
 #box1{
-    background-color: lightgreen;
     margin: 10px;
     border-radius: 30Px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #box2{
-    background-color: lightsalmon;
     margin: 10px;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
 }
 
 #box3{
     background-color: lightpink;
     margin: 10px;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bryggeri{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: #c0ecc14e 0px 0px 10px 10px;
 }
 
 #box4{
-    background-color: lightblue;
     margin:10px;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
 
 #box5{
     background-color: lightcoral;
     margin: 10px;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#PortSkisse{
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+    box-shadow: #51b35479 0px 0px 10px 10px;
 }
 
 #box6{
-    background-color: lightgreen;
     margin: 10px;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
+
+#januarNettside{
+    height: 100%;
+    width: 100%;
+    border-radius:30px;
+    box-shadow: #8bff8f79 0px 0px 10px 10px;
+}
+
