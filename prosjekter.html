@@ -7,10 +7,35 @@
     <link rel="stylesheet" href="prosjekter.css">
 </head>
 <body style="background-color: #60be63;">
-    <h1>Mine Tidligere Prosjekter</h1>
-    <hr style="height: 2px; border: none; background-color: black;">
-    <div onclick="window.location.href='hjem.html';" style="cursor: pointer;">
-        <h3 style="background-color: lightgreen;">Tilbake</h3>
-    </div>
+    <header>
+        <div class="headertab">
+            <h1 id="tittelskrift">Mine Prosjekter</h1>
+        </div>
+    </header>
+    <main>
+        <div class="containerP">
+            <div class="left">
+                <ul>
+                    <div id="knappmenyP">
+                        <div id="link1" onclick="window.location.href='hjem.html'"; style="cursor: pointer;"><h1>Hjem</h1></div>
+                        <div id="link2" onclick="window.location.href='index.html'"; style="cursor: pointer;"><h1>Om Meg</h1></div>
+                        <div id="link3" onclick="window.location.href='kunnskap.html'"; style="cursor: pointer;"><h1>Kunnskap</h1></div>
+                    </div>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="containerMain">
+                    <div id="box1"></div>
+                    <div id="box2"></div>
+                    <div id="box3"></div>
+                    <div id="box4"></div>
+                    <div id="box5"></div>
+                    <div id="box6"></div>
+                </div>
+
+            </div>
+        </div>
+        
+    </main>
 </body>
 </html>
