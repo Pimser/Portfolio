@@ -23,6 +23,7 @@ header{
     font-size: 60px;
     position: relative;
     right: 250px;
+    width: 1000px;
 }
 
 
@@ -214,3 +215,45 @@ hr{
     transition: border-radius 0.5s ease;
 }
 
+
+@media (max-width: 660px) {
+    body {
+        /* background-color: red; */
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100%;
+        width: 100%;
+    }
+
+    .leftcontainer {
+        display: flex;
+        right: unset;
+        justify-content: space-evenly;
+    }
+
+    #tittelskrift {
+        padding: 0;
+        right: unset;
+        font-size: 1.5rem;
+        /* width: 100%; */
+        width: 100%;
+    }
+
+    .link1, .link2, .link3 {
+        top: unset;
+    }
+
+    .rightColumn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerInfo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
